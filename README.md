@@ -29,3 +29,14 @@ Once you create a class and other parts of your application start using it, any 
 ## Liskov Substitution Principle
 
 The LSP says that you should be able to substitute a parent (or base) type with a subtype.
+
+## Interface Segregation Principle
+
+You often see a fat interface that contains many methods. A class that implements the interface may not need all these methods. It suggests that you don’t pollute an interface with these unnecessary methods only to support one (or some) of the implementing classes of this interface. The idea is that a client should not depend on a method that it does not use
+
+## Dependency Inversion Principle
+
+The DIP covers two important things:
+
+- A high-level concrete class should not depend on a low-level concrete class. Instead, both should depend on abstractions.
+- Abstractions should not depend upon details. Instead, the details should depend upon abstractions.
